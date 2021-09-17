@@ -1,0 +1,22 @@
+//bottom
+
+.bottom {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  border-top: 1px;
+  &__graphic {
+    width: 600px;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 2;
+  }
+}
+
+.footer__in-bottom {
+  position: absolute;
+  bottom: 0;
+}

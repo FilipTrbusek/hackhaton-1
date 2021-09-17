@@ -3,6 +3,8 @@ $footbkg: #33393f; //footer background color
 $unselected-link: #838484; //header nav link not selected
 $unselected-link-bottom: #0393f2; //foooter nav link not selected
 
+@import "bottom";
+
 * {
   box-sizing: border-box;
   margin: 0;
