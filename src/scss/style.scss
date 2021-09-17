@@ -8,6 +8,8 @@ $unselected-link-bottom: #0393f2; //foooter nav link not selected
 @import "index";
 @import "menu";
 
+@import "coffee";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -99,6 +101,10 @@ h3 {
   }
 }
 
+.navbar__link--active {
+  color: rgb(44, 44, 44);
+}
+
 // footer
 .footer {
   width: 100%;
@@ -132,4 +138,9 @@ h3 {
       }
     }
   }
+}
+
+.footer__link--active {
+  color: white;
+  text-decoration: none;
 }
