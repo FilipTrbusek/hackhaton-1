@@ -3,6 +3,8 @@ $footbkg: #33393f; //footer background color
 $unselected-link: #838484; //header nav link not selected
 $unselected-link-bottom: #0393f2; //foooter nav link not selected
 
+@import "coffee";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,6 +54,10 @@ html {
   }
 }
 
+.navbar__link--active {
+  color: rgb(44, 44, 44);
+}
+
 // footer
 .footer {
   width: 100%;
@@ -81,4 +87,9 @@ html {
       }
     }
   }
+}
+
+.footer__link--active {
+  color: white;
+  text-decoration: none;
 }
