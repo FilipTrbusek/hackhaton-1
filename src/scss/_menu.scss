@@ -1,0 +1,64 @@
+.menu {
+  width: 800px;
+  margin: 0 auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 40px auto 30px auto;
+  grid-template-areas:
+    "title title"
+    "espresso filter"
+    "iced hot"
+    "non non"
+    "lemonades water";
+  &__title {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  &__section {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &-title {
+      width: 100%;
+    }
+  }
+  &__item {
+    width: 40%;
+    height: auto;
+  }
+  &__price {
+    width: 40%;
+    height: auto;
+  }
+}
+.title {
+  grid-area: title;
+}
+
+.espresso {
+  grid-area: espresso;
+}
+
+.filter {
+  grid-area: filter;
+}
+
+.iced {
+  grid-area: iced;
+}
+.hot {
+  grid-area: hot;
+}
+.non {
+  grid-area: non;
+}
+.lemonades {
+  grid-area: lemonades;
+}
+.water {
+  grid-area: water;
+}
