@@ -7,8 +7,18 @@
   grid-template-areas:
     "top top top"
     "times book address";
+  @media (max-width: 820px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "top"
+      "times"
+      "book"
+      "address";
+  }
   &__photo {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   &__info {
