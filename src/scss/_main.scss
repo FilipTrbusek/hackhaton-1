@@ -1,0 +1,29 @@
+.main {
+  width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "top top top"
+    "times book address";
+  &__photo {
+    width: 800px;
+    height: auto;
+  }
+  &__info {
+    padding-bottom: 10px;
+  }
+  &__top {
+    grid-area: top;
+  }
+  &__times {
+    grid-area: times;
+  }
+  &__book {
+    grid-area: book;
+  }
+  &__address {
+    grid-area: address;
+  }
+}
