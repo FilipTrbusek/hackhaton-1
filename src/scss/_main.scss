@@ -20,9 +20,10 @@
   &__photo {
     width: 100%;
     height: auto;
+    padding-top: 10px;
   }
   &__info {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   &__top {
     grid-area: top;
