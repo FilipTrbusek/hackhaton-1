@@ -7,7 +7,6 @@ $unselected-link-bottom: #0393f2; //foooter nav link not selected
 @import "main";
 @import "index";
 @import "menu";
-
 @import "coffee";
 
 * {
@@ -35,16 +34,19 @@ body {
 }
 
 h1 {
+  width: 100%;
   font-size: 2rem;
   font-weight: 300;
   padding: 8px 0;
 }
 
 h2 {
+  width: 100%;
   font-weight: 300;
   padding: 4px 0;
 }
 h3 {
+  width: 100%;
   font-weight: 300;
   padding: 4px 0;
 }
