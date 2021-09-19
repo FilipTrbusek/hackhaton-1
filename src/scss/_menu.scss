@@ -14,7 +14,7 @@
     "lemonades water";
   grid-gap: 30px;
   @media (max-width: 820px) {
-    width: 100%;
+    width: 80%;
     grid-template-columns: auto;
     grid-template-rows: 40px auto auto auto auto auto 30px auto auto;
     grid-template-areas:
